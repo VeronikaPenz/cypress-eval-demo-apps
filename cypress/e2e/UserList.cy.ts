@@ -4,14 +4,14 @@ import {User} from "@/shared/models/user.model";
 describe('UserList E2E', () => {
 
   it('axe WCAG Accessibility test', () => {
-    cy.visit('/');
+    cy.visit('/userlist');
     cy.injectAxe();
     cy.checkA11y();
   });
 
 
   it('ARIA test', () => {
-    cy.visit('/');
+    cy.visit('/userlist');
     cy.get('.user-list').should('be.visible');
 
     cy.get('.user-image > img').first()
@@ -34,7 +34,7 @@ describe('UserList E2E', () => {
 
 
   it('visual test', () => {
-    cy.visit('/');
+    cy.visit('/userlist');
     cy.get('.user-list').should('be.visible');
     cy.wait(3000);
     cy.compareSnapshot('user-list');
@@ -42,7 +42,7 @@ describe('UserList E2E', () => {
 
 
   it('check profilepic dimensions', () => {
-    cy.visit('/');
+    cy.visit('/userlist');
     cy.get('.user-list').should('be.visible')
       .within(() => {
         cy.get('.user-image').each((i) => {
