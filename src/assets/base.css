@@ -1,0 +1,35 @@
+html {
+    display: flex;
+}
+
+body {
+    margin: 0;
+    padding: 0!important;
+    min-height: 100vh;
+    min-width: 100vw;
+    background: #fff;
+    font-family: Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+    font-size: 15px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#app {
+    height: 100%;
+    background: rgb(236,236,236);
+}
+
+.p-accordion-header > .p-accordion-header-link.p-accordion-header-action{
+    display: none!important;
+}

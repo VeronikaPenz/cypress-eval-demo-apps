@@ -1,0 +1,31 @@
+{
+  "total": 1,
+  "totalPassed": 0,
+  "totalFailed": 1,
+  "totalSuites": 1,
+  "suites": [
+    {
+      "name": "UserList.cy.ts",
+      "path": "cypress\\e2e\\UserList.cy.ts",
+      "tests": [
+        {
+          "status": "fail",
+          "name": "UserList.cy.ts-user-list",
+          "percentage": 0.253018145235044,
+          "failureThreshold": 0.09,
+          "specPath": "cypress\\e2e\\UserList.cy.ts",
+          "specFilename": "UserList.cy.ts",
+          "baselinePath": "cypress-image-diff-screenshots\\baseline\\UserList.cy.ts-user-list.png",
+          "diffPath": "cypress-image-diff-screenshots\\diff\\UserList.cy.ts-user-list.png",
+          "comparisonPath": "cypress-image-diff-screenshots\\comparison\\UserList.cy.ts-user-list.png"
+        }
+      ]
+    }
+  ],
+  "startedAt": "2024-05-22T19:23:43.059Z",
+  "endedAt": "2024-05-22T19:23:48.575Z",
+  "duration": 5516,
+  "browserName": "electron",
+  "browserVersion": "118.0.5993.159",
+  "cypressVersion": "13.7.3"
+}

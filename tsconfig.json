@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "module": "ES2020",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@assets": [
+        "./"
+      ]
+    },
+    "types": [
+      "vite/client",
+      "cypress",
+      "cypress-axe"
+    ]
+  },
+  "include": [
+    "src",
+    "cypress"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
